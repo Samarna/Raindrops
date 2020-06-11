@@ -3,7 +3,7 @@ class Raindrop{
     constructor() {
       this.characters = "$#%&*@";
       this.x = random(0,width);
-      this.y = 0;
+      this.y = random(0,height);
       }
       display(){
         textSize(random(12,40));
